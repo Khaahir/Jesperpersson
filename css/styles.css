@@ -4,92 +4,104 @@
     padding: 0;
 }
 
-#back-video{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+.background{
+height: 100%;
+width: 100%;
+object-fit:cover;
+order:3;
+position: absolute;
+}
+
+body{
+    
 }
 
 .content {
-    position: fixed;
     bottom: 0;
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    bottom: 50%;
   }
-
+  .bottom-nav{ 
+    position: relative;
+    display:flex;
+    gap: 1rem;
+    justify-content: center;
+    list-style: none;
+  }
+  
 .pic-me{
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
     align-self: center;
-    position: absolute;
     bottom: 30rem;
     left: 20rem;
     
 }
 .myname{
     align-self: center;
-    position: absolute;
     bottom: 28rem;
     left: 20rem;
 }
 
 .name{
     align-self: center;
-    position: absolute;
     bottom: 26rem;
     left: 20rem;
 }
 
 .upcome{
     align-self: center;
-    position: absolute;
     bottom: 25rem;
     left: 20rem;
 }
 
-.bottom-nav{
-  
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    position: fixed;
-    list-style: none;
-    bottom: 0.5rem;
-    background-color: black;
-
-}
 
 .aboutme{
-
+    color: rgb(246, 71, 71);
+font-size: 1.3rem;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: hsla(0, 0%, 0%, 0.744);
+padding-left: 5px;
+padding-right: 5px;
 
 }
 
+
+
+
 .know{
+    color: rgb(246, 71, 71);
+font-size: 1.3rem;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: hsla(0, 0%, 0%, 0.744);
+padding-left: 5px;
+padding-right: 5px;
 
 }
 
 .contact{
+    color: rgb(246, 71, 71);
+font-size: 1.3rem;
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: hsla(0, 0%, 0%, 0.744);
+padding-left: 5px;
+padding-right: 5px;
 
 }
 
-p{
-    position: fixed;
-    display: flex;
-    gap: 10rem;
-    color: red;
-    bottom: 0.5rem;
-    right: 1rem;
+footer{
+    background-color: black;
 }
 
-.bottom{
-    position: ;
-    border: black 2px solid;
-}
+
 
 
