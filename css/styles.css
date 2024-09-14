@@ -17,26 +17,29 @@ body{
 }
 
 .content {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     bottom: 0;
-    color: #f1f1f1;
+    color: rgb(247, 247, 247);
     width: 100%;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    bottom: 50%;
+    position: relative;
+    top: 10em;
   }
   .bottom-nav{ 
     position: relative;
     display:flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: flex-start;
     list-style: none;
+  
   }
   
 .pic-me{
     height: 10rem;
     width: 10rem;
+    border: solid black 5px;
     border-radius: 50%;
     align-self: center;
     bottom: 30rem;
@@ -44,18 +47,22 @@ body{
     
 }
 .myname{
+    background-color: rgba(0, 0, 0, 0.39);
     align-self: center;
     bottom: 28rem;
     left: 20rem;
+    
 }
 
 .name{
+    background-color: rgba(0, 0, 0, 0.286);
     align-self: center;
     bottom: 26rem;
     left: 20rem;
 }
 
 .upcome{
+    background-color: rgba(0, 0, 0, 0.286);
     align-self: center;
     bottom: 25rem;
     left: 20rem;
@@ -63,43 +70,69 @@ body{
 
 
 .aboutme{
-    color: rgb(246, 71, 71);
+    color: rgb(255, 255, 255);
 font-size: 1.3rem;
 text-decoration: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: hsla(0, 0%, 0%, 0.744);
 padding-left: 5px;
 padding-right: 5px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
+
+.aboutme:hover{
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(170, 165, 165);
+}
 
 
 
 .know{
-    color: rgb(246, 71, 71);
+    color: rgb(255, 255, 255);
 font-size: 1.3rem;
 text-decoration: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: hsla(0, 0%, 0%, 0.744);
 padding-left: 5px;
 padding-right: 5px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
+.know:hover{
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(170, 165, 165);
+}
+
+
 
 .contact{
-    color: rgb(246, 71, 71);
+    color: rgb(255, 255, 255);
 font-size: 1.3rem;
 text-decoration: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: hsla(0, 0%, 0%, 0.744);
 padding-left: 5px;
 padding-right: 5px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
+.contact:hover{
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(170, 165, 165);
+}
+
+
 footer{
+    text-align: center;
     background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 
